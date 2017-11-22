@@ -47,7 +47,7 @@
 
                     <!-- navigation menu -->
                     <li class="active"><a data-scroll href="#about">개요</a></li>
-                    <li><a data-scroll href="#speakers">발표자</a></li>              
+                    <li><a id="menuspeakers" data-scroll href="#speakers">발표자</a></li>              
                     <li><a data-scroll href="#schedule">프로그램</a></li>                  
                     <li><a data-scroll href="#partner">후원사</a></li>                  
                     <!-- li><a data-scroll href="#faq">FAQ</a></li -->
@@ -624,6 +624,17 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-110027428-1');
+</script>
+
+<script>
+$("#menuspeakers").click(function(){
+  ga('send', {
+    hitType: 'social',
+    eventCategory: 'twitter',
+    eventAction: 'play',
+    eventLabel: 'Fall Campaign'
+  });
+});
 </script>
 
 </body>
