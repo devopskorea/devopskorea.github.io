@@ -46,13 +46,13 @@
                 <ul class="nav navbar-nav navbar-right">
 
                     <!-- navigation menu -->
-                    <li class="active"><a data-scroll data-menuclick="about" href="#about">개요</a></li>
+                    <li class="active"><a data-scroll href="#about" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': 'about' });">개요</a></li>
                     <li><a id="menuspeakers" data-scroll data-menuclick="speakers" href="#speakers" onClick="$('#menuspeakers').show(); ga('send', 'event', 'Button', 'Click', 'Menu Speakers');">발표자</a></li>              
                     <li><a data-scroll data-menuclick="schedule" href="#schedule">프로그램</a></li>
                     <li><a data-scroll data-menuclick="partner" href="#partner">후원사</a></li>                  
                     <!-- li><a data-scroll href="#faq">FAQ</a></li -->
                     <!-- li><a data-scroll href="#photos">Photos</a></li -->
-                    <li><a data-scroll data-menuclick="location" href="#location">행사장 위치</a></li>
+                    <li><a data-scroll data-menuclick="location" href="#location" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': 'location' });">행사장 위치</a></li>
                 
                 </ul>
             </div>
@@ -625,9 +625,6 @@
 
   gtag('config', 'UA-110027428-1');
 </script>
-
-
-<div id="clickme" onClick="gtag('event', 'login', { 'event_category': 'access', 'event_label': 'Google' });">Click me.</div>
 
 </body>
 </html>
