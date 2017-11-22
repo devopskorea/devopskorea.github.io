@@ -47,12 +47,12 @@
 
                     <!-- navigation menu -->
                     <li class="active"><a data-scroll href="#about" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': 'about' });">개요</a></li>
-                    <li><a id="menuspeakers" data-scroll data-menuclick="speakers" href="#speakers" onClick="$('#menuspeakers').show(); ga('send', 'event', 'Button', 'Click', 'Menu Speakers');">발표자</a></li>              
-                    <li><a data-scroll data-menuclick="schedule" href="#schedule">프로그램</a></li>
-                    <li><a data-scroll data-menuclick="partner" href="#partner">후원사</a></li>                  
+                    <li><a data-scroll href="#speakers" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': 'speakers' });">발표자</a></li>              
+                    <li><a data-scroll href="#schedule" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': 'schedule' });">프로그램</a></li>
+                    <li><a data-scroll href="#partner" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': 'partner' });">후원사</a></li>
                     <!-- li><a data-scroll href="#faq">FAQ</a></li -->
                     <!-- li><a data-scroll href="#photos">Photos</a></li -->
-                    <li><a data-scroll data-menuclick="location" href="#location" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': 'location' });">행사장 위치</a></li>
+                    <li><a data-scroll href="#location" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': 'location' });">행사장 위치</a></li>
                 
                 </ul>
             </div>
