@@ -11,6 +11,11 @@
 <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
 <link rel="stylesheet" href="assets/css/main.css">
 <link rel="icon" href="assets/images/icons/xxxhdpi.png">
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Korea DevOps meetup '18" />
+<meta property="og:image" content="http://meetup.devopskorea.com/assets/images/koreadevopsmeetup_512x512.png" />
+<meta property="og:description" content=" Korea DevOps Meetup은 DevOps Korea Group이 주관하고 개최하는 비영리 컨퍼런스입니다. 데브옵스는 애플리케이션과 서비스를 빠른 속도로 제공할 수 있도록 조직의 역량을 향상시키는 문화 철학, 방식 및 도구의 조합입니다." />
+<meta property="og:url" content="http://meetup.devopskorea.com/" />
 <style>
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 :lang(ko) { font-family: 'Noto Sans KR', sans-serif; } 
@@ -68,7 +73,7 @@
             
             <p>Connecting the Dots: 기술의 접점, 경험의 공유, 문화의 확산</p>
             
-            <a class="btn btn-white" href="http://onoffmix.com/event/121295" target="_blank">지금 등록</a>
+            <a class="btn btn-white" href="http://onoffmix.com/event/121295" target="_blank" onClick="gtag('event', 'click', { 'event_category': 'button', 'event_label': 'registrnow' });">지금 등록</a>
         
         </div>
     </header>
@@ -87,21 +92,16 @@
                        2017년에는 저희 준비위원회가 한국에서 DevOps을 시작했던 처음의 마음가짐으로 세션뿐 아니라 더 다양한 프로그램으로 준비하였습니다. 
                        더욱 다양한 참가자들과 함께 새로운 기술과 정보를 공유하고 서로 교류할 수 있는 행사가 되기를 희망합니다.  </p>
 		-->
-		<p>
-			KOREA DevOps Meetup은, DevOps Korea Group이 주관하고 개최하는 비영리 콘퍼런스 입니다.<br>
-			본 행사를 통해 DevOps 문화와 기술 구현에 관련한 서로의 경험과 사례를 공유 할 수 있는 자리를 마련하고자 합니다.<br>
-			기술적 트랜드 및 Best practice 사례 등을 기반으로 앞으로 DevOps문화가 가야 할 방향을 제시하고, 선진화된 IT기술을 접목 할 수 있는 계기가 되었으면 합니다.<br>
-<br>			
-			이번 행사는 현업에서 다양한 경험을 통해 직간접적으로 습득하게된 지식 및 Know-how를 공유하는 세션으로써 그 가치와 유용성만으로도 충분히 의미 있는 시간으로 남을 것입니다.<br><br>
-			해당 행사의 준비 및 진행에 관련해서는 커뮤니티 맴버들의 자발적인 봉사로 운영되고 있으며, 행사에 필요한 자원적인 부분들은 기업들의 지원으로 이뤄지고 있습니다.<br><br>
-			KOREA DevOps Meetup '18에 관심을 가져주시고 기꺼이 발표 신청도 해 주신 많은 분들께 감사드리며, 그분들이 계셨기에 행사를 진행 할 수 있게 되었다는 점에 감사하다는 말씀 전합니다.<br>
-			<br>
-			한국에서는 처음으로 열리는 KOREA DevOps Meetup '18을 시작으로 앞으로 더 많은 교류와 활발한 활동으로 이어나가기를 기대하며,<br>
-			앞으로도 다양하고 알찬 프로그램을 준비 할 수 있도록 노력 하겠습니다.					<br>
+		        <p>
+Korea DevOps Meetup은 DevOps Korea Group이 주관하고 개최하는 비영리 컨퍼런스입니다.<br>
+
+데브옵스는 애플리케이션과 서비스를 빠른 속도로 제공할 수 있도록 조직의 역량을 향상시키는 문화 철학, 방식 및 도구의 조합이며, 기존의 소프트웨어 개발 및 인프라 관리 프로세스를 사용하는 조직보다 제품을 더 빠르게 혁신하고 개선할 수 있습니다. 이러한 빠른 속도를 통해 조직은 고객을 더 잘 지원하고 시장에서 좀 더 효과적으로 경쟁할 수 있습니다.<br>
+
+현재 2,000명 이상의 멤버가 활동 중인 DevOps Korea에서는 국내 소프트웨어 개발자들과 운영 전문가들 이 한 자리에 모여 서로의 기술과 노하우 그리고 데브옵스의 철학을 함께 나눌 수 있는 자리를 마련하고자 합니다.
 			</p>
 
                     <figure>
-                        <img alt="" class="img-responsive" src="assets/images/about-us.jpg">
+                        <img alt="" class="img-responsive" src="/koreadevopsmeetup_wide.jpg">
                     </figure>
 
                 </div><!-- /.col-sm-6 -->
@@ -110,15 +110,19 @@
 
                     <h3 class="section-title multiple-title">Meet up의 목표</h3>
 
-                    <p>KOREA DevOps Meetup은 커뮤니티 주관으로 이뤄지는 비영리 행사로써, 타 기업 및 기관에서 개최하는 IT Engineer 대상 행사와는 성격이 다릅니다. 발표자와 진행자를 포함하여, 자원봉사자와 준비위원회 담당자 등 모든 인원이 금전적 이득없이 순수히 DevOps 문화 확산 및 저변 확대, 그리고 커뮤니티 활성화를 위해 진행하는 행사입니다.<br><br> <b>본 행사는 아래와 같은 차별점이 있습니다.</b></p>
+                    <p>
+본 행사를 통해 DevOps 문화와 기술 구현에 관련한 서로의 경험과 사례를 공유할 수 있는 자리를 마련하고자 합니다.<br>
+한국에서 처음으로 열리는 Korea DevOps Meetup ’18을 시작으로 더 많은 교류와 활발한 활동으로 이어나가기를 기대하며, 앞으로 다양하고 알찬 프로그램을 준비할 수 있도록 노력하겠습니다.<br>
+
+이 행사는 DevOps 문화 확산 및 저변 확대, 그리고 커뮤니티 활성화를 위해 뜻을 같이 하는 준비위원회 운영진들과 자원봉사자들의 자발적인 도움으로 이루어졌습니다.
+                    </p>
+                    <p>본 행사는 아래와 같은 차별점이 있습니다.</p>
 
                     <ul class="list-arrow-right">
-
-                        <li>국내유일 DevOps관련 엔지니어링 네트워크 확보</li>
+                        <li>국내 유일 DevOps 엔지니어 네트워크 확보</li>
                         <li>사례 중심의 발표</li>
-                        <li>최고의 만족을 드리는 행사 진행</li>
-                        <li>무료 커피 & 쿠키</li>
-                    
+                        <li>무료 커피 &amp; 쿠키</li>
+                        <li>행사 로고가 담긴 고급 티셔츠</li>
                     </ul>
 
                 </div><!-- /.col-sm-6 -->
@@ -170,20 +174,17 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="speaker">
-
                         <figure>
                             <img alt="" class="img-responsive center-block" src="RalfYang_300x300.jpg">
                         </figure>
-
                         <h4>양지욱</h4>
-
                         <p>Meet up에 대하여</p>
 			<p>통합 세션</p>
                         <ul class="social-block">
-                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
-                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
-                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                            <li><i class="ion-social-twitter"></i></li>
+                            <li><a href="https://www.facebook.com/Jiook.Yang" target=_blank><i class="ion-social-facebook"></i></a></li>
+                            <li><i class="ion-social-linkedin-outline"></i></li>
+                            <li><i class="ion-social-googleplus"></i></li>
                         </ul>
 
                     </div><!-- /.speaker -->
@@ -191,20 +192,17 @@
 
                 <div class="col-md-4">
                     <div class="speaker">
-
                         <figure>
-                            <img alt="" class="img-responsive center-block" src="no-profile-pic_300x300.jpg">
+                            <img alt="" class="img-responsive center-block" src="YongjunGong_300x300.png">
                         </figure>
-
                         <h4>공용준</h4>
-
                         <p>Key Note</p>
-			<p>공통</p>
+			<p>통합 세션</p>
                         <ul class="social-block">
-                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
-                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
-                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                            <li><i class="ion-social-twitter"></i></li>
+                            <li><a href="https://www.facebook.com/sstrato.kong" target=_blank><i class="ion-social-facebook"></i></a></li>
+                            <li><i class="ion-social-linkedin-outline"></i></li>
+                            <li><i class="ion-social-googleplus"></i></li>
                         </ul>
 
                     </div><!-- /.speaker -->
@@ -218,151 +216,12 @@
                 <div class="col-md-12">
 
                     <h3 class="section-title">발표자</h3>
-		    <p> &nbsp;<a href="http://onoffmix.com/event/121295" class="ion-android-open">&nbsp; 발표 스케쥴 보기</a></p>
+		    <p> &nbsp;<a href="http://onoffmix.com/event/121295" class="ion-android-open" onClick="gtag('event', 'click', { 'event_category': 'button', 'event_label': 'schedule' });">&nbsp; 발표 스케쥴 보기</a></p>
                 
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-4">
-                    <div class="speaker">
-                        <figure>
-                            <img alt="" class="img-responsive center-block" src="JaejoonJung_300x300.jpg">
-                        </figure>
-                        <h4>정재준</h4>
-                        <p>임베디드 개발 프로세스 상에서의 CI/CD 구축 경험 공유</p>
-                        <p>트랙 3, 세션 5</p>
-                        <ul class="social-block">
-                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
-                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
-                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
-                        </ul>
-                    </div>
-                </div><!-- /.col-md-4 -->
-
-                <div class="col-md-4">
-                    <div class="speaker">
-
-                        <figure>
-                            <img alt="" class="img-responsive center-block" src="no-profile-pic_300x300.jpg">
-                        </figure>
-
-                        <h4>정기훈</h4>
-
-                        <p>카카오 클라우드의 시작 kfield</p>
-			<p>트랙 2, 세션 1</p>
-                        <ul class="social-block">
-                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
-                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
-                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
-                        </ul>
-
-                    </div><!-- /.speaker -->
-                </div><!-- /.col-md-4 -->
-
-                <div class="col-md-4">
-                    <div class="speaker">
-
-                        <figure>
-                            <img alt="" class="img-responsive center-block" src="JungsooPark_300x300.jpg">
-                        </figure>
-
-                        <h4>박정수</h4>
-
-                        <p>Content as code (DevOps 관점에서 데이터를 다루는 효율적인 가이드)</p>
-			<p>트랙 3, 세션 3</p>
-                        <ul class="social-block">
-                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
-                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
-                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
-                        </ul>
-
-                    </div><!-- /.speaker -->
-                </div><!-- /.col-md-4 -->
-            </div><!-- /.row -->
-
-            <div class="row">
-                <div class="col-md-4">
-
-                    <div class="speaker">
-
-                        <figure>
-                            <img alt="" class="img-responsive center-block" src="DaegwonKim_300x300.jpg">
-                        </figure>
-
-                        <h4>김대권</h4>
-
-                        <p>SMARTSTUDY 테라폼 도입기: 클라우드 인프라스트럭처 코드로 재정의하기</p>
-                        <p>트랙 1, 세션 4</p>
-                        <ul class="social-block">
-                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
-                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
-                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-4">
-
-                    <div class="speaker">
-
-                        <figure>
-                            <img alt="" class="img-responsive center-block" src="no-profile-pic_300x300.jpg">
-                        </figure>
-
-                        <h4>박훈</h4>
-
-                        <p>그들이 AWS 위에서 Kubernetes 를 운영하는 방법</p>
-                        <p>트랙 1, 세션 2</p>
-                        <ul class="social-block">
-                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
-                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
-                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
-                        </ul>
-
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="speaker">
-                        <figure>
-                            <img alt="" class="img-responsive center-block" src="no-profile-pic_300x300.jpg">
-                        </figure>
-                        <h4>이수형</h4>
-                        <p>Secure DevOps - DevSecOps를 위한 방향과 방안</p>
-                        <p>트랙 3, 세션 1</p>
-                        <ul class="social-block">
-                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
-                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
-                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="speaker">
-                        <figure>
-                            <img alt="" class="img-responsive center-block" src="no-profile-pic_300x300.jpg">
-                        </figure>
-                        <h4>송주영</h4>
-                        <p>"What is Devops(DevSecOps)? Microservice with Devops"</p>
-                        <p>트랙 2, 세션 2</p>
-                        <ul class="social-block">
-                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
-                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
-                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-
                 <div class="col-md-4">
                     <div class="speaker">
                         <figure>
@@ -379,7 +238,164 @@
                         </ul>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="no-profile-pic_300x300.jpg">
+                        </figure>
+                        <h4>정기훈</h4>
+                        <p>카카오 클라우드의 시작 kfield</p>
+			<p>트랙 2, 세션 1</p>
+                        <ul class="social-block">
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                        </ul>
+                    </div><!-- /.speaker -->
+                </div><!-- /.col-md-4 -->
+                <div class="col-md-4">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="SoohyeongLee_300x300.png">
+                        </figure>
+                        <h4>이수형</h4>
+                        <p>Secure DevOps - DevSecOps를 위한 방향과 방안</p>
+                        <p>트랙 3, 세션 1</p>
+                        <ul class="social-block">
+                            <li><i class="ion-social-twitter"></i></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=565370157" target=_blank><i class="ion-social-facebook"></i></a></li>
+                            <li><i class="ion-social-linkedin-outline"></i></li>
+                            <li><i class="ion-social-googleplus"></i></li>
+                        </ul>
+                    </div>
+                </div> <!-- 세션 1 끝, row 끝 전 -->
 
+
+            </div><!-- /.row -->
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="no-profile-pic_300x300.jpg">
+                        </figure>
+                        <h4>박훈</h4>
+                        <p>그들이 AWS 위에서 Kubernetes 를 운영하는 방법</p>
+                        <p>트랙 1, 세션 2</p>
+                        <ul class="social-block">
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="JuyeongSong_300x300.jpg">
+                        </figure>
+                        <h4>송주영</h4>
+                        <p>What is Devops(DevSecOps)? Microservice with Devops</p>
+                        <p>트랙 2, 세션 2</p>
+                        <ul class="social-block">
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="JunhyeongKim_300x300.jpg">
+                        </figure>
+                        <h4>김준형</h4>
+                        <p>마이크로 서비스 아키텍처를 지탱하는 DC/OS 기반의 반자동 데이터센터</p>
+                        <p>트랙 1, 세션 3</p>
+                        <ul class="social-block">
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="no-profile-pic_300x300.jpg">
+                        </figure>
+                        <h4>강상진</h4>
+                        <p>웹 컨테이너 플랫폼 아코디언을 통한 앱 개발 생산성 100배 높이기</p>
+                        <p>트랙 2, 세션 3</p>
+                        <ul class="social-block">
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="JeongsooPark_300x300.jpg">
+                        </figure>
+                        <h4>박정수</h4>
+                        <p>Content as code (DevOps 관점에서 데이터를 다루는 효율적인 가이드)</p>
+			<p>트랙 3, 세션 3</p>
+                        <ul class="social-block">
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                        </ul>
+                    </div><!-- /.speaker -->
+                </div><!-- /.col-md-4 -->
+            </div> <!-- end of row -->
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="DaegwonKim_300x300.jpg">
+                        </figure>
+                        <h4>김대권</h4>
+                        <p>SMARTSTUDY 테라폼 도입기: 클라우드 인프라스트럭처 코드로 재정의하기</p>
+                        <p>트랙 1, 세션 4</p>
+                        <ul class="social-block">
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="SeonchanLee_300x300.jpg">
+                        </figure>
+                        <h4>이선찬</h4>
+                        <p>Mesos로 container orchestration service를 구축</p>
+                        <p>트랙 2, 세션 4</p>
+                        <ul class="social-block">
+                            <li><a href="https://twitter.com/blurblah" target=_blank><i class="ion-social-twitter"></i></a></li>
+                            <li><a href="https://www.facebook.com/sunchan.lee" target=_blank><i class="ion-social-facebook"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/sunchanlee" target=_blank><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div> <!-- end of row -->
+
+            <div class="row">
                 <div class="col-md-4">
                     <div class="speaker">
                         <figure>
@@ -396,11 +412,38 @@
                         </ul>
                     </div>
                 </div>
-            </div> <!-- end of row -->
-
-            <div class="row">
                 <div class="col-md-4">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="no-profile-pic_300x300.jpg">
+                        </figure>
+                        <h4>오일석, 방승호</h4>
+                        <p>에어큐브의 MSA적용으로 솔루션을 SaaS화 사례</p>
+                        <p>트랙 2, 세션 5</p>
+                        <ul class="social-block">
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                        </ul>
+                    </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="JaejunJung_300x300.jpg">
+                        </figure>
+                        <h4>정재준</h4>
+                        <p>임베디드 개발 프로세스 상에서의 CI/CD 구축 경험 공유</p>
+                        <p>트랙 3, 세션 5</p>
+                        <ul class="social-block">
+                            <li><i class="ion-social-twitter"></i></li>
+                            <li><a href="https://www.facebook.com/jaejoon.jung93" target=_blank><i class="ion-social-facebook"></i></a></li>
+                            <li><i class="ion-social-linkedin-outline"></i></li>
+                            <li><i class="ion-social-googleplus"></i></li>
+                        </ul>
+                    </div>
+                </div><!-- /.col-md-4 -->
             </div> <!-- end of row -->
 
         </div>
@@ -500,16 +543,16 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="schedule-box">
                         <div class="time">
-                            <time datetime="13:00">13:00</time> - <time datetime="13:30">13:30 am</time>
+                            <time datetime="13:00">13:00</time> - <time datetime="13:50">13:50</time>
                         </div>
-                        <h3>행사 개요, 인사말(통합)</h3>
-                        <p>양지욱</p>
+                        <h3>등록, 환영사, 키노트</h3>
+                        <p>양지욱 외</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="schedule-box">
                         <div class="time">
-                            <time datetime="13:30">13:30</time> - <time datetime="17:00">17:00</time>
+                            <time datetime="13:30">13:30</time> - <time datetime="17:50">17:50</time>
                         </div>
                         <h3>트랙별 발표(총3개 트랙)</h3>
                         <p>각 주제별 발표자</p>
@@ -518,7 +561,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="schedule-box">
                         <div class="time">
-                            <time datetime="17:00">17:00</time> - <time datetime="18:00">18:00</time>
+                            <time datetime="17:50">17:50</time> - <time datetime="18:00">18:00</time>
                         </div>
                         <h3>선물 추첨, 폐회사</h3>
                         <p>운영위원회</p>
@@ -724,7 +767,7 @@
                     <p class="site-info">Korea DevOps Meetup 2018 준비위원회<br><a href="http://weblog.youre.space/vergence/"> </a></p>
                     <ul class="social-block">
                         <!-- li><a href="http://twitter.com/unixware213"><i class="ion-social-twitter"></i></a></li -->
-                        <li><a href="https://www.facebook.com/groups/395603913908659"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="https://www.facebook.com/groups/395603913908659" onClick="gtag('event', 'click', { 'event_category': 'sns', 'event_label': 'commitee' });"><i class="ion-social-facebook"></i></a></li>
                         <!-- li><a href=""><i class="ion-social-linkedin-outline"></i></a></li -->
                         <!-- li><a href=""><i class="ion-social-googleplus"></i></a></li -->
                     </ul>
