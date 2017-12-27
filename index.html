@@ -51,13 +51,13 @@
                 <ul class="nav navbar-nav navbar-right">
 
                     <!-- navigation menu -->
-                    <li class="active"><a data-scroll href="#about" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': 'about' });">개요</a></li>
-                    <li><a data-scroll href="#speakers" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': 'speakers' });">발표자</a></li>              
-                    <li><a data-scroll href="#schedule" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': 'schedule' });">프로그램</a></li>
-                    <li><a data-scroll href="#partner" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': 'partner' });">후원사</a></li>
+                    <li class="active"><a data-scroll href="#about" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': 'about' }); sp.track('click', {category:'menu', label:'about'});">개요</a></li>
+                    <li><a data-scroll href="#speakers" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': 'speakers' }); sp.track('click', {category:'menu', label:'speakers'});">발표자</a></li>
+                    <li><a data-scroll href="#schedule" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': 'schedule' }); sp.track('click', {category:'menu', label:'schedule'});">프로그램</a></li>
+                    <li><a data-scroll href="#partner" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': 'partner' }); sp.track('click', {category:'menu', label:'partner'});">후원사</a></li>
                     <!-- li><a data-scroll href="#faq">FAQ</a></li -->
                     <!-- li><a data-scroll href="#photos">Photos</a></li -->
-                    <li><a data-scroll href="#location" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': 'location' });">행사장 위치</a></li>
+                    <li><a data-scroll href="#location" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': 'location' }); sp.track('click', {category:'menu', label:'location'});">행사장 위치</a></li>
                 
                 </ul>
             </div>
@@ -73,7 +73,7 @@
             
             <p>Connecting the Dots: 기술의 접점, 경험의 공유, 문화의 확산</p>
             
-            <a class="btn btn-white" href="http://onoffmix.com/event/121295" target="_blank" onClick="gtag('event', 'click', { 'event_category': 'button', 'event_label': 'registrnow' });">지금 등록</a>
+            <a class="btn btn-white" href="http://onoffmix.com/event/121295" target="_blank" onClick="gtag('event', 'click', { 'event_category': 'button', 'event_label': 'registrnow' }); sp.track('click', {category:'button', label:'RegisterNow'});">지금 등록</a>
         
         </div>
     </header>
@@ -175,7 +175,7 @@ Korea DevOps Meetup은 DevOps Korea Group이 주관하고 개최하는 비영리
                 <div class="col-md-4">
                     <div class="speaker">
                         <figure>
-                            <img alt="" class="img-responsive center-block" src="RalfYang_300x300.jpg">
+                            <img alt="" class="img-responsive center-block" src="RalfYang_300x300.jpg" onClick="sp.track('click', {category:'image', label:'RalfYang'});">
                         </figure>
                         <h4>양지욱</h4>
                         <p>Meet up에 대하여</p>
@@ -193,7 +193,7 @@ Korea DevOps Meetup은 DevOps Korea Group이 주관하고 개최하는 비영리
                 <div class="col-md-4">
                     <div class="speaker">
                         <figure>
-                            <img alt="" class="img-responsive center-block" src="YongjunGong_300x300.png">
+                            <img alt="" class="img-responsive center-block" src="YongjunGong_300x300.png" onClick="sp.track('click', {category:'image', label:'YongjunGong'});">
                         </figure>
                         <h4>공용준</h4>
                         <p>Key Note</p>
@@ -216,7 +216,7 @@ Korea DevOps Meetup은 DevOps Korea Group이 주관하고 개최하는 비영리
                 <div class="col-md-12">
 
                     <h3 class="section-title">발표자</h3>
-		    <p> &nbsp;<a href="http://onoffmix.com/event/121295" class="ion-android-open" onClick="gtag('event', 'click', { 'event_category': 'button', 'event_label': 'schedule' });">&nbsp; 발표 스케쥴 보기</a></p>
+		    <p> &nbsp;<a href="http://onoffmix.com/event/121295" class="ion-android-open" onClick="gtag('event', 'click', { 'event_category': 'button', 'event_label': 'schedule' }); sp.track('click', {category:'button', label:'schedule'});">&nbsp; 발표 스케쥴 보기</a></p>
                 
                 </div>
             </div>
@@ -225,7 +225,7 @@ Korea DevOps Meetup은 DevOps Korea Group이 주관하고 개최하는 비영리
                 <div class="col-md-4">
                     <div class="speaker">
                         <figure>
-                            <img alt="" class="img-responsive center-block" src="no-profile-pic_300x300.jpg">
+                            <img alt="" class="img-responsive center-block" src="JaekwonPark_300x300.jpg" onClick="sp.track('click', {category:'image', label:'JaekwonPark'});">
                         </figure>
                         <h4>박재권</h4>
                         <p>4core 16G 메모리의 데스크탑(2NIC) 한대로 집에서 돌려보는 Rancher test 환경</p>
@@ -241,7 +241,7 @@ Korea DevOps Meetup은 DevOps Korea Group이 주관하고 개최하는 비영리
                 <div class="col-md-4">
                     <div class="speaker">
                         <figure>
-                            <img alt="" class="img-responsive center-block" src="no-profile-pic_300x300.jpg">
+                            <img alt="" class="img-responsive center-block" src="GihunJeong_300x300.png" onClick="sp.track('click', {category:'image', label:'GihunJeong'});">
                         </figure>
                         <h4>정기훈</h4>
                         <p>카카오 클라우드의 시작 kfield</p>
@@ -257,10 +257,10 @@ Korea DevOps Meetup은 DevOps Korea Group이 주관하고 개최하는 비영리
                 <div class="col-md-4">
                     <div class="speaker">
                         <figure>
-                            <img alt="" class="img-responsive center-block" src="SoohyeongLee_300x300.png">
+                            <img alt="" class="img-responsive center-block" src="HyeonsuKim_300x300.png" onClick="sp.track('click', {category:'image', label:'SoohyeongLee'});">
                         </figure>
-                        <h4>이수형</h4>
-                        <p>Secure DevOps - DevSecOps를 위한 방향과 방안</p>
+                        <h4>김현수</h4>
+                        <p>10 Ways Kubernetes Enables DevOps</p>
                         <p>트랙 3, 세션 1</p>
                         <ul class="social-block">
                             <li><i class="ion-social-twitter"></i></li>
@@ -270,15 +270,13 @@ Korea DevOps Meetup은 DevOps Korea Group이 주관하고 개최하는 비영리
                         </ul>
                     </div>
                 </div> <!-- 세션 1 끝, row 끝 전 -->
-
-
             </div><!-- /.row -->
 
             <div class="row">
                 <div class="col-md-4">
                     <div class="speaker">
                         <figure>
-                            <img alt="" class="img-responsive center-block" src="no-profile-pic_300x300.jpg">
+                            <img alt="" class="img-responsive center-block" src="HunPark_300x300.png" onClick="sp.track('click', {category:'image', label:'HunPark', used:'Busan'});">
                         </figure>
                         <h4>박훈</h4>
                         <p>그들이 AWS 위에서 Kubernetes 를 운영하는 방법</p>
@@ -294,11 +292,27 @@ Korea DevOps Meetup은 DevOps Korea Group이 주관하고 개최하는 비영리
                 <div class="col-md-4">
                     <div class="speaker">
                         <figure>
-                            <img alt="" class="img-responsive center-block" src="JuyeongSong_300x300.jpg">
+                            <img alt="" class="img-responsive center-block" src="SoohyeongLee_300x300.png" onClick="sp.track('click', {category:'image', label:'SoohyeongLee'});">
+                        </figure>
+                        <h4>이수형</h4>
+                        <p>Secure DevOps - DevSecOps를 위한 방향과 방안</p>
+                        <p>트랙 3, 세션 2</p>
+                        <ul class="social-block">
+                            <li><i class="ion-social-twitter"></i></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=565370157" target=_blank><i class="ion-social-facebook"></i></a></li>
+                            <li><i class="ion-social-linkedin-outline"></i></li>
+                            <li><i class="ion-social-googleplus"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="JuyeongSong_300x300.jpg" onClick="sp.track('click', {category:'image', label:'JuyeongSong'});">
                         </figure>
                         <h4>송주영</h4>
                         <p>What is Devops(DevSecOps)? Microservice with Devops</p>
-                        <p>트랙 2, 세션 2</p>
+                        <p>트랙 2, 세션 3</p>
                         <ul class="social-block">
                             <li><a href=""><i class="ion-social-twitter"></i></a></li>
                             <li><a href=""><i class="ion-social-facebook"></i></a></li>
@@ -313,7 +327,7 @@ Korea DevOps Meetup은 DevOps Korea Group이 주관하고 개최하는 비영리
                 <div class="col-md-4">
                     <div class="speaker">
                         <figure>
-                            <img alt="" class="img-responsive center-block" src="JunhyeongKim_300x300.jpg">
+                            <img alt="" class="img-responsive center-block" src="JunhyeongKim_300x300.jpg" onClick="sp.track('click', {category:'image', label:'JunhyeongKim'});">
                         </figure>
                         <h4>김준형</h4>
                         <p>마이크로 서비스 아키텍처를 지탱하는 DC/OS 기반의 반자동 데이터센터</p>
@@ -329,10 +343,10 @@ Korea DevOps Meetup은 DevOps Korea Group이 주관하고 개최하는 비영리
                 <div class="col-md-4">
                     <div class="speaker">
                         <figure>
-                            <img alt="" class="img-responsive center-block" src="no-profile-pic_300x300.jpg">
+                            <img alt="" class="img-responsive center-block" src="JiungPark_300x300.png" onClick="sp.track('click', {category:'image', label:'JinhyeonLee'});">
                         </figure>
-                        <h4>강상진</h4>
-                        <p>웹 컨테이너 플랫폼 아코디언을 통한 앱 개발 생산성 100배 높이기</p>
+                        <h4>박지웅</h4>
+                        <p>Devops 에 기반한 CDN운영</p>
                         <p>트랙 2, 세션 3</p>
                         <ul class="social-block">
                             <li><a href=""><i class="ion-social-twitter"></i></a></li>
@@ -345,7 +359,7 @@ Korea DevOps Meetup은 DevOps Korea Group이 주관하고 개최하는 비영리
                 <div class="col-md-4">
                     <div class="speaker">
                         <figure>
-                            <img alt="" class="img-responsive center-block" src="JeongsooPark_300x300.jpg">
+                            <img alt="" class="img-responsive center-block" src="JeongsooPark_300x300.jpg" onClick="sp.track('click', {category:'image', label:'JeongsooPark'});">
                         </figure>
                         <h4>박정수</h4>
                         <p>Content as code (DevOps 관점에서 데이터를 다루는 효율적인 가이드)</p>
@@ -364,10 +378,10 @@ Korea DevOps Meetup은 DevOps Korea Group이 주관하고 개최하는 비영리
                 <div class="col-md-4">
                     <div class="speaker">
                         <figure>
-                            <img alt="" class="img-responsive center-block" src="DaegwonKim_300x300.jpg">
+                            <img alt="" class="img-responsive center-block" src="DaegwonKim_300x300.jpg" onClick="sp.track('click', {category:'image', label:'DaegwonKim'});">
                         </figure>
                         <h4>김대권</h4>
-                        <p>SMARTSTUDY 테라폼 도입기: 클라우드 인프라스트럭처 코드로 재정의하기</p>
+                        <p>테라폼 도입기: 클라우드 인프라스트럭처 코드로 재정의하기</p>
                         <p>트랙 1, 세션 4</p>
                         <ul class="social-block">
                             <li><a href=""><i class="ion-social-twitter"></i></a></li>
@@ -380,16 +394,32 @@ Korea DevOps Meetup은 DevOps Korea Group이 주관하고 개최하는 비영리
                 <div class="col-md-4">
                     <div class="speaker">
                         <figure>
-                            <img alt="" class="img-responsive center-block" src="SeonchanLee_300x300.jpg">
+                            <img alt="" class="img-responsive center-block" src="JingiGong_300x300.png" onClick="sp.track('click', {category:'image', label:'IlSeokOh'});">
                         </figure>
-                        <h4>이선찬</h4>
-                        <p>Mesos로 container orchestration service를 구축</p>
+                        <h4>공진기</h4>
+                        <p>상용 Kubernetes 의 선택과 확장</p>
                         <p>트랙 2, 세션 4</p>
                         <ul class="social-block">
-                            <li><a href="https://twitter.com/blurblah" target=_blank><i class="ion-social-twitter"></i></a></li>
-                            <li><a href="https://www.facebook.com/sunchan.lee" target=_blank><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/sunchanlee" target=_blank><i class="ion-social-linkedin-outline"></i></a></li>
-                            <li></li>
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="JinhyeonLee_300x300.png" onClick="sp.track('click', {category:'image', label:'JinhyeonLee'});">
+                        </figure>
+                        <h4>이진현</h4>
+                        <p>웹 컨테이너 플랫폼 아코디언을 통한 앱 개발 생산성 100배 높이기</p>
+                        <p>트랙 3, 세션 4</p>
+                        <ul class="social-block">
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -399,7 +429,7 @@ Korea DevOps Meetup은 DevOps Korea Group이 주관하고 개최하는 비영리
                 <div class="col-md-4">
                     <div class="speaker">
                         <figure>
-                            <img alt="" class="img-responsive center-block" src="no-profile-pic_300x300.jpg">
+                            <img alt="" class="img-responsive center-block" src="SeongcheolKim_300x300.png" onClick="sp.track('click', {category:'image', label:'SeongcheolKim'});">
                         </figure>
                         <h4>김성철</h4>
                         <p>다양한 클라우드 환경에서의 어플리케이션 자동배포와 코드기반 관리 방안</p>
@@ -415,7 +445,7 @@ Korea DevOps Meetup은 DevOps Korea Group이 주관하고 개최하는 비영리
                 <div class="col-md-4">
                     <div class="speaker">
                         <figure>
-                            <img alt="" class="img-responsive center-block" src="no-profile-pic_300x300.jpg">
+                            <img alt="" class="img-responsive center-block" src="IlseokOh-SeunghoBang_300x300.png" onClick="sp.track('click', {category:'image', label:'IlSeokOh'});">
                         </figure>
                         <h4>오일석, 방승호</h4>
                         <p>에어큐브의 MSA적용으로 솔루션을 SaaS화 사례</p>
@@ -431,12 +461,62 @@ Korea DevOps Meetup은 DevOps Korea Group이 주관하고 개최하는 비영리
                 <div class="col-md-4">
                     <div class="speaker">
                         <figure>
-                            <img alt="" class="img-responsive center-block" src="JaejunJung_300x300.jpg">
+                            <img alt="" class="img-responsive center-block" src="SeonchanLee_300x300.jpg" onClick="sp.track('click', {category:'image', label:'SeonchanLee'});">
+                        </figure>
+                        <h4>이선찬</h4>
+                        <p>Mesos로 container orchestration service를 구축</p>
+                        <p>트랙 2, 세션 5</p>
+                        <ul class="social-block">
+                            <li><a href="https://twitter.com/blurblah" target=_blank><i class="ion-social-twitter"></i></a></li>
+                            <li><a href="https://www.facebook.com/sunchan.lee" target=_blank><i class="ion-social-facebook"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/sunchanlee" target=_blank><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="no-profile-pic_300x300.jpg" onClick="sp.track('click', {category:'image', label:'SeongcheolKim'});">
+                        </figure>
+                        <h4>준비 중</h4>
+                        <p>(준비 중)</p>
+                        <p>트랙 1, 세션 6</p>
+                        <ul class="social-block">
+                            <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                            <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                            <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                            <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="JaejunJung_300x300.jpg" onClick="sp.track('click', {category:'image', label:'JaejunJung'});">
                         </figure>
                         <h4>정재준</h4>
                         <p>임베디드 개발 프로세스 상에서의 CI/CD 구축 경험 공유</p>
-                        <p>트랙 3, 세션 5</p>
+                        <p>트랙 2, 세션 6</p>
                         <ul class="social-block">
+                            <li><i class="ion-social-twitter"></i></li>
+                            <li><a href="https://www.facebook.com/jaejoon.jung93" target=_blank><i class="ion-social-facebook"></i></a></li>
+                            <li><i class="ion-social-linkedin-outline"></i></li>
+                            <li><i class="ion-social-googleplus"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="speaker">
+                        <figure>
+                            <img alt="" class="img-responsive center-block" src="no-profile-pic_300x300.jpg" onClick="sp.track('click', {category:'image', label:'JaejunJung'});">
+                        </figure>
+                        <h4>준비 중</h4>
+                        <p>(준비 중)</p>
+                        <p>트랙 3, 세션 6</p>
+                        <ul class="social-block">d
                             <li><i class="ion-social-twitter"></i></li>
                             <li><a href="https://www.facebook.com/jaejoon.jung93" target=_blank><i class="ion-social-facebook"></i></a></li>
                             <li><i class="ion-social-linkedin-outline"></i></li>
@@ -605,7 +685,18 @@ Korea DevOps Meetup은 DevOps Korea Group이 주관하고 개최하는 비영리
                 <div class="col-sm-3">
                     <a class="partner-box partner-box-8"></a>
                 </div>
-            </div>   
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-9"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-10"></a>
+                </div>
+                <div class="col-sm-3">
+                    <a class="partner-box partner-box-11"></a>
+                </div>		    
+            </div>
     </section>
 
 <!--
