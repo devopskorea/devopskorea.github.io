@@ -140,6 +140,7 @@ input::-moz-focus-inner {
 }
 input {
   line-height: normal;
+  color: #555555;
 }
 input[type="checkbox"],
 input[type="radio"] {
