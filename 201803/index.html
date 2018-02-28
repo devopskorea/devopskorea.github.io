@@ -316,6 +316,8 @@ function myPing(){
 <script type="text/javascript">
 $(document).click(function(e) {
   if (e.altKey) {
+    gtag('event', 'click', { 'event_category': 'etc', 'event_label': 'easter-egg' }); 
+    sp.track('click', {category:'etc', label:'easter-egg'});
     alert("Easter Egg / Chulhyun Cho, Ralf Yang, Sangyong Gwak, JiYoung Kim, SangUk Park")
   } 
 });
