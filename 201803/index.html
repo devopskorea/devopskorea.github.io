@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<html lang="kr">
-
+<html lang="ko">
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -284,6 +282,38 @@
     <!-- Custom scripts for this template -->
     <script src="js/creative.min.js"></script>
 
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/parse/1.11.0/parse.min.js"></script>
+<script>
+var query={};
+$(document).ready(function() {
+    Parse.initialize('625f5cf0-2a84-4e03-9404-e64716e8cc32', '3WqCxScm3E1C45cIH8Tq2zfzKWj8LMMh');
+    Parse.serverURL = 'https://parse.buddy.com/parse';
+    myPing();
+});
+function myPing(){
+    query = new Parse.Query('Comment');
+    query.descending("createdAt");
+    query.find({
+        success: function(){},
+        error: function(){}
+    });
+}
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110027428-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-110027428-1');
+</script>
+
+    <script type="text/javascript">
+        var sp=sp||[];(function(){var e=["init","identify","track","trackLink","pageview"],t=function(e){return function(){sp.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var n=0;n<e.length;n++)sp[e[n]]=t(e[n])})(),sp.load=function(e,o){sp._endpoint=e;if(o){sp.init(o)};var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"===document.location.protocol?"https://":"http://")+"d21ey8j28ejz92.cloudfront.net/analytics/v1/sp.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)};
+        sp.load("http://splunk.sys5.co:81"); // Replace with your own Collector URL
+    </script>    
+    
   </body>
 
 </html>
