@@ -7,7 +7,7 @@
   "description": "Korea DevOps meetup '18",
   "icons": [{
     "src": "assets/images/koreadevopsmeetup_512x512.png",
-    "sizes": "512x512",
+    "sizes": "500x500",
     "type": "image/png"
   },{
     "src": "assets/images/icons/xxxhdpi.png",
