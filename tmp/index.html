@@ -83,16 +83,16 @@
             console.log(jsonData);
     
             $.ajax({
-                //url: "http://splunk.ecomx.asia:8088/services/collector/event",
-                url: "http://localhost:8088/services/collector/event", //localhost
+                url: "http://splunk.ecomx.asia:8088/services/collector/event",
+                //url: "http://localhost:8088/services/collector/event", //localhost
                 async: true,
                 contentType: 'application/x-www-form-urlencoded; charset=UTF-8',
                 method: 'POST',
                 crossDomain: true,
                 data: JSON.stringify({ event: jsonData }),
                 headers: {
-                    "Authorization": "Splunk 4db90e00-2419-4713-980d-99d6b453e886" //localhost
-                    //"Authorization": "Splunk 7f9768b4-0c60-4cba-8dda-7c4ae8c06402" //splunk.ecomx.asia
+                    //"Authorization": "Splunk 4db90e00-2419-4713-980d-99d6b453e886" //localhost
+                    "Authorization": "Splunk 7f9768b4-0c60-4cba-8dda-7c4ae8c06402" //splunk.ecomx.asia
                 },
                 success: function(data) {
                 console.log("1")
