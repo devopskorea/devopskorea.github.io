@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="DevOps Korea 회원을 위해 스타트업의 서비스 개발 경험을 공유하는 자리를 준비했습니다. 7월 17일 오후 1:30, 역삼역 부근 메가존 세미나실에서 만나요.">
+    <meta name="author" content="Chulhyun Cho, Ralf Yang, Sangyong Gwak, 김지영, SangUk Park">
+
+    <title>DevOps Korea - DevOps Talk 2018/07</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+    <meta property="og:title" content="MyMusicTaste 개발 경험 공유" />
+    <meta property="og:image" content="https://meetup.devopskorea.com/201807/img/profile_lee_512x512.png" />
+    <meta property="og:description" content="DevOps Korea 회원을 위해 스타트업의 서비스 개발 경험을 공유하는 자리를 준비했습니다. 7월 17일 오후 1:30, 역삼역 부근 메가존 세미나실에서 만나요."/>
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top" onClick="gtag('event', 'click', { 'event_category': 'button', 'event_label': '201807-page-top' }); sp.track('click', {category:'button', label:'page-top'});">DevOps Korea</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': '201807-about' }); sp.track('click', {category:'Menu', label:'about'});">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#speakers" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': '201807-speaker' }); sp.track('click', {category:'Menu', label:'speaker'});">Speaker</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#agenda" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': '201807-agenda' }); sp.track('click', {category:'Menu', label:'agenda'});">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact" onClick="gtag('event', 'click', { 'event_category': 'menu', 'event_label': '201807-contact' }); sp.track('click', {category:'Menu', label:'contact'});">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead text-center text-white d-flex">
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1 class="text-uppercase">
+              <strong>2018년 7월<br>DevOps Korea - DevOps Talk</strong>
+            </h1>
+            <hr>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <p class="text-faded mb-5">MyMusicTaste와 함께하는 개발 이야기</p>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about" onClick="gtag('event', 'click', { 'event_category': 'button', 'event_label': '201807-find-out-more' }); sp.track('click', {category:'button', label:'find-out-more'});">Find Out More</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">DevOps Korea 야간 과외 소개</h2>
+            <hr class="light my-4">
+            <p class="text-faded mb-4">DevOps Korea는 2018년 1월 13일 첫번째 대규모 Meetup을 200명 규모로 추진하였습니다. <a href="http://meetup.devopskorea.com/201801/" target="_blank" onClick="gtag('event', 'click-button', { 'event_category': 'old_pages', 'event_label': '201801' }); sp.track('click-button', {category:'old_pages', label:'201801'});"><img src="https://findicons.com/files/icons/2315/default_icon/128/open_in_new_window.png" style="height: 16px;"></a><br>
+            이후 지속적인 정보 및 기술의 교류를 위해 소규모 Meetup을 추진하기 위해<br>
+            지속적으로 야간 과외, DevOps Talk와 같은 주제로 찾아옵니다.<br>
+            DevOps Korea는 국내외 DevOps의 도입과 정착을 위해 노력하기 위해 <br>뜻을 함께하는 개발자 및 엔지니어들의 관심을 필요로 합니다.<br>
+            또한, Meetup은 언제든 여러분께 열려있으며, <br>강연 및 Meetup 등 커뮤니티 활동에 관심있으신 분은 언제든 운영진에게 연락 주시기 바랍니다.<br>
+            <ul>
+            <li>2018년 3월 도커 야간 과외 밋업<a href="http://meetup.devopskorea.com/201803/" target="_blank" onClick="gtag('event', 'click-button', { 'event_category': 'old_pages', 'event_label': '201803' }); sp.track('click-button', {category:'old_pages', label:'201801'});"><img src="https://findicons.com/files/icons/2315/default_icon/128/open_in_new_window.png" style="height: 16px;"></a><br></li>
+            <li>2018년 5월 MS Azure 서비스를 이용해 안면 인식 서비스 개발</li>
+            <li>2018년 5월 Pivotal, MEGAZONE과 함께하는 DevOps Talk</li>
+            </ul>
+            <strong>MyMusicTaste와 함께하는 개발 이야기</strong><br>
+            후원 : MyMusicTaste, DevOps Korea, Pivotal, 메가존<br>
+            <p><br>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#speakers" onClick="gtag('event', 'click', { 'event_category': 'button', 'event_label': '201807-about-spekaer' }); sp.track('click', {category:'button', label:'about-speaker'});">About Speaker</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="speakers">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">MyMusicTaste 개발팀</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-diamond text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Paul</h3>
+              <p class="text-muted mb-0">소속: <br><a class="btn-light" href="#" target=_blank>소속</a> 소속</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-newspaper-o text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">Jake</h3>
+              <p class="text-muted mb-0">소속: <br><a class="btn-light" href="#" target=_blank>소속</a> 소속<br>
+              (전) 서울대학교 파이썬 과정 외래교수  
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fa fa-4x fa-heart text-primary mb-3 sr-icons"></i>
+              <h3 class="mb-3">주은</h3>
+              <p class="text-muted mb-0">소속: <br><a class="btn-light" href="#" target=_blank>소속</a> 소속<br>
+                현) Microsoft Azure MVP<br>
+                현) 파이썬/장고 교육 서비스 AskDjango 운영자<br>
+            전) 서울대학교 파이썬 과정 외래교수</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   <section class="p-0" id="agenda">
+    <section class="bg-dark text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">[:: MyMusicTaste와 함께하는 개발 이야기 ::]</h2>
+        <p class="mb-3">일자 : 2018년 7월 14일 토요일</p>
+        <p class="mb-3">일시 : 오후 1:30 ~ 오후 5:30</p>
+        <p class="mb-3">장소 : 메가존 세미나실 (역삼역) </p>
+        <p class="mb-3">모집인원 : 45명(입금 선착순)</p>
+        <p class="mb-3">참가비 : 유료(2만원) </p>
+        <br>
+        <a class="btn btn-light btn-xl sr-button" href="http://bit.ly/DevOps1805" target=_blank onClick="gtag('event', 'click', { 'event_category': 'button', 'event_label': '201807-register' }); sp.track('click', {category:'button', label:'register'});">신청</a>
+      </div>
+    </section>
+ </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Meetup 안내</h2>
+            <hr class="my-4">
+            <p class="mb-5">DevOps Meetup과 관련된 문의는 이메일을 통해 문의 주시기 바랍니다.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
+            <p><a class="btn-light" href="http://www.devopskorea.com/" target="_blank" onClick="gtag('event', 'click', { 'event_category': 'button', 'event_label': '201807-home-page' }); sp.track('click', {category:'button', label:'home-page'});">DevOps Korea</a></p>
+          </div>
+          <div class="col-lg-4 mr-auto text-center">
+            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
+            <p>
+              <a class="btn-light" href="mailto:devopsmeetup@gmail.com" target="_blank" onClick="gtag('event', 'click', { 'event_category': 'button', 'event_label': '201807-send-email' }); sp.track('click', {category:'button', label:'send-email'});">devopsmeetup@gmail.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/parse/1.11.0/parse.min.js"></script>
+<script>
+var query={};
+$(document).ready(function() {
+    Parse.initialize('625f5cf0-2a84-4e03-9404-e64716e8cc32', '3WqCxScm3E1C45cIH8Tq2zfzKWj8LMMh');
+    Parse.serverURL = 'https://parse.buddy.com/parse';
+    myPing();
+});
+function myPing(){
+    query = new Parse.Query('Comment');
+    query.descending("createdAt");
+    query.find({
+        success: function(){},
+        error: function(){}
+    });
+}
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110027428-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-110027428-1');
+</script>
+
+    <script type="text/javascript">
+        var sp=sp||[];(function(){var e=["init","identify","track","trackLink","pageview"],t=function(e){return function(){sp.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var n=0;n<e.length;n++)sp[e[n]]=t(e[n])})(),sp.load=function(e,o){sp._endpoint=e;if(o){sp.init(o)};var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"===document.location.protocol?"https://":"http://")+"d21ey8j28ejz92.cloudfront.net/analytics/v1/sp.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)};
+        sp.load("http://splunk.sys5.co:81"); // Replace with your own Collector URL
+    </script>    
+<script type="text/javascript">
+$(document).click(function(e) {
+  if (e.altKey) {
+    gtag('event', 'click', { 'event_category': 'etc', 'event_label': '201807-easter-egg' }); 
+    sp.track('click', {category:'etc', label:'easter-egg'});
+    alert("Easter Egg / Chulhyun Cho, Ralf Yang, Sangyong Gwak, JiYoung Kim, SangUk Park")
+  } 
+});
+</script>
+    
+  </body>
+
+</html>
