@@ -1060,7 +1060,11 @@ function myPing(){
     /* query.limit(1); */
     query.descending("createdAt");
     query.find({
-        success: function(){},
+        success: function(results){
+	  $.each(results, function(index, value){
+          console.log(value);
+          });
+	},
         error: function(){}
     });
 }
