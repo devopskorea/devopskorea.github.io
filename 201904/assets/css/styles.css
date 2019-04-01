@@ -1,0 +1,113 @@
+/*
+* Section - Hero
+*/
+
+/** BG - Static */
+#hero-bg-static {
+  background-image: url("../images/bg-hero.jpg");
+}
+
+/** BG - Parallax */
+#hero-bg-parallax > .bg-img-parallax {
+  background: url("../images/bg-hero-parallax.jpg");
+}
+
+/** BG - Slider */
+#hero-bg-slider .flickity-slider > .carousel-cell:nth-child(1) {
+  background: url("../images/bg-hero-slide-1.jpg");
+}
+
+#hero-bg-slider .flickity-slider > .carousel-cell:nth-child(2) {
+  background: url("../images/bg-hero-slide-2.jpg");
+}
+
+#hero-bg-slider .flickity-slider > .carousel-cell:nth-child(3) {
+  background: url("../images/bg-hero-slide-3.jpg");
+}
+
+/** BG - Slideshow */
+#hero-bg-slideshow .slides > .bg-img-cover:nth-child(1) {
+  background: url("../images/bg-hero-slide-1.jpg");
+}
+
+#hero-bg-slideshow .slides > .bg-img-cover:nth-child(2) {
+  background: url("../images/bg-hero-slide-2.jpg");
+}
+
+#hero-bg-slideshow .slides > .bg-img-cover:nth-child(3) {
+  background: url("../images/bg-hero-slide-3.jpg");
+}
+
+/** BG - Video */
+#hero-bg-video:before {
+  z-index: 15;
+}
+
+#hero-bg-video .container {
+  position: relative;
+  z-index: 20;
+}
+
+#hero-bg-video .player.is-mobile {
+  display: none;
+}
+
+
+/*
+* Countdown
+*/
+
+#countdown {
+  margin-bottom: 10px;
+  margin-top: -40px;
+}
+
+
+/*
+* Section - Venue
+*/
+
+#venue {
+  background-image: url("../images/bg-venue.jpg");
+}
+
+
+/*
+* Promo
+*/
+
+#promo {
+  background-image: url("../images/bg-promo.jpg");
+}
+
+
+/*
+* Ticket
+*/
+
+#ticket {
+  background-image: url("../images/bg-ticket.jpg");
+}
+
+
+/*
+* Register
+*/
+
+#register {
+  background-image: url("../images/bg-register.jpg");
+}
+
+
+/*
+* Footer
+*/
+
+.footer-logo {
+  max-height: 40px;
+}
+
+.footer-icon-social {
+  bottom: 10px;
+  position: relative;
+}
