@@ -12,9 +12,9 @@
   background: url("../images/bg-hero-parallax.jpg");
 }
 
-/** BG - Slider */
+/** BG - Slider bg-hero-slide-1.jpg */
 #hero-bg-slider .flickity-slider > .carousel-cell:nth-child(1) {
-  background: url("../images/bg-hero-slide-1.jpg");
+  background: url("../images/hero-1_1920x1280.jpg");
 }
 
 #hero-bg-slider .flickity-slider > .carousel-cell:nth-child(2) {
