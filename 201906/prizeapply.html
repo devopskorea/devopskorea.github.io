@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Korea DevOps meetup '18</title>
+<link rel="manifest" href="manifest.json">
+<!-- css -->
+<link rel="stylesheet" href="bower_components/bootstrap/css/bootstrap.css">
+<link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="icon" href="assets/images/icons/xxxhdpi.png">
+</head>
+
+<body data-spy="scroll" data-target="#site-nav" lang="ko">
+    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="site-branding">
+                    <a class="logo" href="http://meetup.devopskorea.com/">
+                        <img>
+                        Korea DevOps meetup '18
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+  
+    <section id="facts" class="section bg-image-1 facts text-center">
+        <div class="container">
+            <div class="row">
+		        <form action="http://35.189.144.218/splunk-accesslog/logging.html" method="get" >
+                <div class="col-sm-3">
+                    <h3>이름<br><input type=input name="Name" value="" ></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3>소속<br><input type=input name="Company" value="" ></h3>                
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3>전화번호<br><input type=input name="Mobile" value="" ></h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3>이메일<br><input type=input name="Email" value="" ></h3>                
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3>DevOps Korea Meetup '18 경품 추첨을 위한 개인 정보 제공을 동의합니다.<br><input type=checkbox name="Email" value="" ></h3>                
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <input type=hidden name="Prize" value="Y" ></h3>                
+		            <input type="submit" value="Submit">
+                </div>
+	            </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="site-info">Korea DevOps Meetup 2018 준비위원회<br><a href="http://weblog.youre.space/vergence/"> </a></p>
+                    <ul class="social-block">
+                        <li><a href="https://www.facebook.com/groups/395603913908659" onClick="gtag('event', 'click', { 'event_category': 'sns', 'event_label': 'commitee' });"><i class="ion-social-facebook"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
+    <script type="text/javascript">
+        var sp=sp||[];(function(){var e=["init","identify","track","trackLink","pageview"],t=function(e){return function(){sp.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var n=0;n<e.length;n++)sp[e[n]]=t(e[n])})(),sp.load=function(e,o){sp._endpoint=e;if(o){sp.init(o)};var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"===document.location.protocol?"https://":"http://")+"d21ey8j28ejz92.cloudfront.net/analytics/v1/sp.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)};
+        sp.load("http://splunk.sys5.co:81"); // Replace with your own Collector URL
+    </script>
+
+</body>
+</html>
