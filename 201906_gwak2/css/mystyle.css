@@ -5,8 +5,9 @@
   padding-top: 8px;
   padding-bottom: 8px;
   color: black;
+  font-size: 1.25em;
 }
 
-#mytimetable h4 {
+#_schedule h4 {
   color: #3b1d82;
 }
