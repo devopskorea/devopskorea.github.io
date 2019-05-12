@@ -13,5 +13,6 @@
 }
 
 .sponsor-single img {
-  height: 120px;
+  max-height: 140px;
+  max-width: 260px;
 }
