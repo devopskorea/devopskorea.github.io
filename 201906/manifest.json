@@ -1,0 +1,17 @@
+{
+  "name": "Korea DevOps meetup '19",
+  "short_name": "DevOps meetup",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "Korea DevOps meetup '19",
+  "icons": [{
+    "src": "img/koreadevopsmeetup_512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  },{
+    "src": "img/xxxhdpi.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }]
+}
