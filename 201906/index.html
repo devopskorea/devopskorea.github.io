@@ -878,7 +878,37 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
   <script src="js/jquery.magnific-popup.min.js"></script>  
   <script src="js/main.js"></script>
 
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/parse/2.4.0/parse.min.js"></script>
+<script>
+var query={};
+$(document).ready(function() {
+    Parse.initialize('l9viJqa9YkXB4f8UufSxLOJonot65zChFr9zPB6b', '9VOkJhDRvqzBwAtQlL0mIo9OPwIFnVE5MWGIuedZ');
+    Parse.serverURL = 'https://parseapi.back4app.com'
+    myPing();
+});
+function myPing(){
+    query = new Parse.Query('Comment');
+    /* query.limit(1); */
+    query.descending("createdAt");
+    query.find({
+        success: function(results){
+	  $.each(results, function(index, value){
+          console.log(value);
+          });
+	},
+        error: function(){}
+    });
+}
+</script>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110027428-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-110027428-1', {'user_id': 'u73009132', 'userId': 'U38293842'});
+</script>
 
 </body>
 </html>
