@@ -6,6 +6,7 @@
   padding-bottom: 8px;
   color: black;
   font-size: 1.25em;
+  font-weight: bolder;
 }
 
 #_schedule h4 {
@@ -15,4 +16,8 @@
 .sponsor-single img {
   max-height: 100px;
   max-width: 260px;
+}
+
+.schedule-content p {
+  font-size: 1.25em;
 }
